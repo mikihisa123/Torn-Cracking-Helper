@@ -5,7 +5,7 @@ with open(r'ignis-1M.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
     word_length = int(input("Provide word length: "))
     pattern = r"^"
-    print(71 * "=")
+    print(70 * "=")
     print("Now program will ask you to provide password letter by letter. You can:")
     print("Type a letter/number/sign - to provide a valid input from game")
     print("Type '.' (dot) - to provide empty input" )

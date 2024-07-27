@@ -44,3 +44,12 @@ and provide such input (also, letter by letter)
 - G
 - .
 - E
+
+## DISCLAIMER:
+
+This script is using Ignis - 1M list of passwords
+That can be found here:
+https://github.com/ignis-sec/Pwdb-Public/blob/master/wordlists/ignis-1M.txt
+
+There is no proof which list TORN is using, but having the script work faster
+than searching within 10M records can be bneneficial for you

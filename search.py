@@ -1,5 +1,6 @@
 import re
 from collections import defaultdict
+
 with open(r'ignis-1M.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
     word_length = int(input("Provide word length: "))
@@ -36,7 +37,6 @@ with open(r'ignis-1M.txt', 'r', encoding='utf-8') as file:
 
 
     pattern_compile = re.compile(pattern, re.IGNORECASE)
-    # Match 'J', any character, 'N', any character, with word boundaries
 
     # Counter for matching lines
     match_count = 0
@@ -69,12 +69,12 @@ with open(r'ignis-1M.txt', 'r', encoding='utf-8') as file:
 column_counts = [defaultdict(int) for _ in range(len(letters_combined))]
 
 print(70 * "#")
-# Step 2: Count occurrences of each letter in each column
+# Count occurrences of each letter in each column
 for col in range(len(letters_combined)):
     for letter in letters_combined[col]:
         column_counts[col][letter] += 1
 
-# Step 3: Calculate percentages
+# Calculate percentages
 column_percentages = []
 for col_count in column_counts:
     total_count = sum(col_count.values())

@@ -1,8 +1,9 @@
 # Torn Cracking Helper
 
 This is simple script to help you with cracking crime
-just run it in your console (using ./search.py) and
-you will be prompted with simple instructions:
+just run it in your console (using ./search.py) OR use special EXE file in folder dist
+(it's the same as the script, but works from the get-go! PLEASE REMEMBER TO KEEP file ignis-1M.txt still there!)
+and you will be prompted with simple instructions:
 
 1.  Provide word length you want to crack in torn
 2.  Provide letter by letter password using this semantic:
